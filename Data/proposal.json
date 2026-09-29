@@ -1,137 +1,132 @@
-[
-  {
-    "name": "The Distraction",
-    "gif": "phone-hearts.gif",
-    "text": "I think you may be becoming a slight distraction."
-  },
-  {
-    "name": "A Serious Problem",
-    "gif": "looking-at-phone-hearts.gif",
-    "text": "Actually... a rather serious one."
-  },
-  {
-    "name": "The Heart",
-    "gif": "goma-gives-peach-heart.gif",
-    "text": "I'd like to give you all the love I have."
-  },
-  {
-    "name": "And Some Back",
-    "gif": "peach-kisses-goma-hearts.gif",
-    "text": "And I'd probably be very happy receiving some of yours too."
-  },
-  {
-    "name": "Quite A Lot",
-    "gif": "goma-kisses-peach.gif",
-    "text": "Quite a lot, actually. 🤍"
-  },
-  {
-    "name": "Your Bad Days",
-    "gif": "goma-hugs-sad-peach.gif",
-    "text": "When you're having a difficult day, I want to be someone you can come home to."
-  },
-  {
-    "name": "Even In Silence",
-    "gif": "cuddling.gif",
-    "text": "Even if all we do is sit quietly together."
-  },
-  {
-    "name": "I Will Annoy You",
-    "gif": "goma-tickles-peach.gif",
-    "text": "I fully intend to annoy you."
-  },
-  {
-    "name": "There Will Be Consequences",
-    "gif": "peach-bites-goma.gif",
-    "text": "And I have accepted that there will be consequences."
-  },
-  {
-    "name": "Severe Consequences",
-    "gif": "peach-beats-goma.gif",
-    "text": "Apparently, severe consequences."
-  },
-  {
-    "name": "Noted",
-    "gif": "goma-scared-peach.gif",
-    "text": "Noted. 😭"
-  },
-  {
-    "name": "Taking Care Of You",
-    "gif": "goma-massages-peach.gif",
-    "text": "I want to take care of you in the little ways."
-  },
-  {
-    "name": "After A Long Day",
-    "gif": "goma-dries-peach-hair.gif",
-    "text": "Especially after a long day."
-  },
-  {
-    "name": "Your Safe Place",
-    "gif": "goma-hugs-peach-head.gif",
-    "text": "I want to be your safe place. 🤍"
-  },
-  {
-    "name": "The Little Things",
-    "gif": "peach-dances.gif",
-    "text": "I want the little things too."
-  },
-  {
-    "name": "Falling Asleep",
-    "gif": "peach-sleeps-goma-blanket.gif",
-    "text": "Falling asleep next to each other."
-  },
-  {
-    "name": "Random Adventures",
-    "gif": "peach-goma-running.gif",
-    "text": "Going on random little adventures just because we can."
-  },
-  {
-    "name": "Our Competitive Side",
-    "gif": "jenga.gif",
-    "text": "Getting unnecessarily competitive over things that absolutely do not matter."
-  },
-  {
-    "name": "The Sunset",
-    "gif": "peach-goma-sunset.gif",
-    "text": "Watching sunsets with you."
-  },
-  {
-    "name": "Quiet Evenings",
-    "gif": "peach-goma-fireplace.gif",
-    "text": "Having quiet evenings where we don't really need to do anything."
-  },
-  {
-    "name": "The Pictures",
-    "gif": "peach-goma-cuddle.gif",
-    "text": "Taking far too many pictures that we'll probably laugh at years from now."
-  },
-  {
-    "name": "Growing Together",
-    "gif": "goma-peach-exercise.gif",
-    "text": "I want to watch you become everything you're trying to become."
-  },
-  {
-    "name": "And You Watch Me",
-    "gif": "goma-holds-peach-exercise.gif",
-    "text": "And I want you to watch me become everything I'm trying to become too."
-  },
-  {
-    "name": "Tomorrow",
-    "gif": "peach-goma-together.gif",
-    "text": "I don't know exactly what every tomorrow will look like."
-  },
-  {
-    "name": "Quite A Few Of Them",
-    "gif": "peach-goma-cuddling.gif",
-    "text": "But I know I'd like to experience quite a few of them with you."
-  },
-  {
-    "name": "One Last Question",
-    "gif": "peach-goma-heart.gif",
-    "text": "So... I suppose there's only one thing left for me to ask."
-  },
-  {
-    "name": "The Question",
-    "type": "proposal",
-    "text": "Ntokozo... will you be my girlfriend?"
-  }
+﻿[
+    {
+        "name":  "The Distraction",
+        "gif":  "assets/phone-hearts.gif",
+        "text":  "I think you may be becoming a little bit of a distraction."
+    },
+    {
+        "name":  "A Serious Problem",
+        "gif":  "assets/mng-mochi.gif",
+        "text":  "Because somehow, my mind keeps finding its way back to you."
+    },
+    {
+        "name":  "The Heart",
+        "gif":  "assets/goma-gives-peach-heart.gif",
+        "text":  "And honestly... I don\u0027t mind giving you a little piece of my heart."
+    },
+    {
+        "name":  "And Some Back",
+        "gif":  "assets/peach-kisses-goma-hearts.gif",
+        "text":  "Especially if you might let me keep a little piece of yours."
+    },
+    {
+        "name":  "Quite A Lot",
+        "gif":  "assets/goma-kisses-peach.gif",
+        "text":  "Actually... I wouldn\u0027t mind having quite a lot of it. ðŸ¤"
+    },
+    {
+        "name":  "Your Bad Days",
+        "gif":  "assets/goma-hugs-sad-peach.gif",
+        "text":  "When life gets heavy, I want to be someone you don\u0027t have to pretend around."
+    },
+    {
+        "name":  "Even In Silence",
+        "gif":  "assets/cuddling.gif",
+        "text":  "Someone you can sit beside in complete silence and still feel understood."
+    },
+    {
+        "name":  "I Will Annoy You",
+        "gif":  "assets/goma-tickles-peach.gif",
+        "text":  "Of course, I also plan on being extremely annoying."
+    },
+    {
+        "name":  "There Will Be Consequences",
+        "gif":  "assets/peach-bites-goma.gif",
+        "text":  "I understand there may be consequences for that decision."
+    },
+    {
+        "name":  "Severe Consequences",
+        "gif":  "assets/peach-beats-goma.gif",
+        "text":  "Judging by the evidence... probably severe ones. ðŸ˜­"
+    },
+    {
+        "name":  "Noted",
+        "gif":  "assets/goma-scared-peach.gif",
+        "text":  "I\u0027ll behave. Probably."
+    },
+    {
+        "name":  "Taking Care Of You",
+        "gif":  "assets/goma-massages-peach.gif",
+        "text":  "But beyond the jokes, I want to take care of you in all the little ways."
+    },
+    {
+        "name":  "After A Long Day",
+        "gif":  "assets/goma-dries-peach-hair.gif",
+        "text":  "The kind of little things that say, \u0027I\u0027ve got you.\u0027"
+    },
+    {
+        "name":  "Your Safe Place",
+        "gif":  "assets/goma-hugs-peach-head.gif",
+        "text":  "I want you to know that you can always find a little peace with me. ðŸ¤"
+    },
+    {
+        "name":  "The Little Things",
+        "gif":  "assets/peach-dances.gif",
+        "text":  "I want the silly things too."
+    },
+    {
+        "name":  "Falling Asleep",
+        "gif":  "assets/peach-sleeps-goma-blanket.gif",
+        "text":  "The quiet nights. The sleepy conversations. The \u0027goodnight\u0027 that turns into another hour of talking."
+    },
+    {
+        "name":  "Random Adventures",
+        "gif":  "assets/peach-goma-running.gif",
+        "text":  "The random plans that somehow become our favorite memories."
+    },
+    {
+        "name":  "Our Competitive Side",
+        "gif":  "assets/jenga.gif",
+        "text":  "And yes... I fully intend to compete with you over things that absolutely do not matter."
+    },
+    {
+        "name":  "The Sunset",
+        "gif":  "assets/peach-goma-sunset.gif",
+        "text":  "I want to watch sunsets with youâ€”not just send them to you."
+    },
+    {
+        "name":  "Quiet Evenings",
+        "gif":  "assets/peach-goma-fireplace.gif",
+        "text":  "To have those evenings where being together is enough."
+    },
+    {
+        "name":  "The Pictures",
+        "gif":  "assets/peach-goma-cuddle.gif",
+        "text":  "And take way too many pictures of moments we\u0027ll one day look back on and smile about."
+    },
+    {
+        "name":  "Growing Together",
+        "gif":  "assets/goma-peach-exercise.gif",
+        "text":  "I want to see you grow into everything you\u0027re dreaming of becoming."
+    },
+    {
+        "name":  "And You Watch Me",
+        "gif":  "assets/goma-holds-peach-exercise.gif",
+        "text":  "And I hope you\u0027ll let me grow alongside you."
+    },
+    {
+        "name":  "Tomorrow",
+        "gif":  "assets/peach-goma-together.gif",
+        "text":  "I don\u0027t know exactly what our story will look like."
+    },
+    {
+        "name":  "Quite A Few Of Them",
+        "gif":  "assets/peach-goma-cuddling.gif",
+        "text":  "But I know there are a lot of tomorrows I\u0027d love to share with you."
+    },
+    {
+        "name":  "One Last Question",
+        "gif":  "assets/peach-goma-heart.gif",
+        "text":  "And after everything I\u0027ve just said... there\u0027s really only one thing left to ask."
+    }
 ]
