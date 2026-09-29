@@ -7,20 +7,143 @@
     <title>Our Story</title>
 </head>
 <body>
-    <div class="main-wrapper">
-        <div class="card-container">
-            <div class="inner-container">
-                <h2 class="display-font">Hey MaNgcobo</h2>
-                <p class="body-font">Mashiya amahle ngathi azoshumayela!</p>
-                <h6 class="body-font">I've been thinking....</h6>
-                <div>
-                    <img src="Assets/Goma intro.gif" alt="">
-                </div>
-                <p class="body-font">Take a little journey with me</p>
-            </div>
-            <button class="open-button">Open It</button>
+    <main class="main-wrapper">
+        <div class="floaties" aria-hidden="true">
+            <span class="floating-heart heart-one">♡</span>
+            <span class="floating-heart heart-two">♡</span>
+            <span class="floating-heart heart-three">♡</span>
+            <span class="floating-heart heart-four">♡</span>
+            <span class="floating-heart heart-five">♡</span>
+            <span class="twinkle sparkle-one">✦</span>
+            <span class="twinkle sparkle-two">✦</span>
+            <span class="twinkle sparkle-three">✦</span>
+            <span class="twinkle sparkle-four">✦</span>
+            <span class="twinkle sparkle-five">✦</span>
+            <span class="twinkle sparkle-six">✦</span>
+            <span class="twinkle sparkle-seven">✦</span>
+            <span class="twinkle sparkle-eight">✦</span>
+            <span class="twinkle sparkle-nine">✦</span>
+            <span class="twinkle sparkle-ten">✦</span>
         </div>
-    </div>
-    <script src="script.js"></script>
+
+        <!-- Intro screen -->
+        <section
+            class="card-container"
+            id="intro-screen"
+            aria-labelledby="greeting"
+        >
+            <div class="inner-container">
+                <p class="eyebrow">A little something for you</p>
+                <h1 class="display-font" id="greeting">Hey MaNgcobo</h1>
+                <p class="intro-line">Mashiya amahle ngathi azoshumayela!</p>
+                <p class="thinking-line">I've been thinking…</p>
+                <img
+                    class="intro-image"
+                    src="assets/Goma intro.gif"
+                    alt="Goma holding a little flower"
+                >
+                <p class="journey-line">Take a little journey with me</p>
+            </div>
+            <button class="open-button" id="open-button" type="button">
+                Open it
+            </button>
+        </section>
+
+        <!-- Story screen -->
+        <section
+            class="story-screen"
+            id="story-screen"
+            hidden
+            aria-labelledby="scene-title"
+        >
+            <div class="story-content">
+                <p class="scene-number" id="scene-number">01</p>
+                <h2 class="scene-title display-font" id="scene-title"></h2>
+                <div class="scene-image-container">
+                    <img class="scene-image" id="scene-image" src="" alt="">
+                </div>
+                <p class="scene-text" id="scene-text"></p>
+            </div>
+            <button class="next-button" id="next-button" type="button">
+                Continue
+            </button>
+        </section>
+
+        <!-- Proposal screen -->
+        <section
+            class="proposal-screen"
+            id="proposal-screen"
+            hidden
+            aria-labelledby="proposal-title"
+        >
+            <div class="proposal-content">
+                <p class="eyebrow">One last question</p>
+                <h2 class="proposal-title display-font" id="proposal-title">
+                    Ntokozo...
+                </h2>
+                <p class="proposal-question" id="proposal-question">
+                    MaNgcobo...<br>
+                    Nyuswa kaDingila.<br>
+                    KaNgcobo kaVumezitha.<br>
+                    Mashiy' amahle ngathi azoshumayela...<br><br>
+                    Kudala ngifuna ukukubuza lokhu...<br>
+                    Ngifuna ukuba nawe.<br>
+                    Ngabe uzoba yintombi yami? 🤍
+                </p>
+                <div
+                    class="proposal-image-container"
+                    id="proposal-image-container"
+                >
+                    <img class="proposal-image" id="proposal-image" src="assets/goma-propose.gif" alt="Goma proposing">
+                </div>
+                <div class="proposal-buttons" id="proposal-buttons">
+                    <button
+                        class="proposal-button yes-button"
+                        id="yes-button"
+                        type="button"
+                    >
+                        Yes 🤍
+                    </button>
+                    <button
+                        class="proposal-button maybe-button"
+                        id="maybe-button"
+                        type="button"
+                    >
+                        Maybe 🌸
+                    </button>
+                    <button
+                        class="proposal-button no-button"
+                        id="no-button"
+                        type="button"
+                    >
+                        No 😭
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Response screen -->
+        <section
+            class="response-screen"
+            id="response-screen"
+            hidden
+            aria-labelledby="response-title"
+        >
+            <div class="response-content">
+                <div class="response-animation" id="response-animation">
+                    <!-- GIF or animation inserted here -->
+                </div>
+                <p class="eyebrow" id="response-eyebrow"></p>
+                <h2 class="response-title display-font" id="response-title"></h2>
+                <p class="response-message" id="response-message"></p>
+                <p class="response-meta" id="response-meta"></p>
+                <button class="response-button" id="response-button" type="button">
+                    Continue
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="script.js"></script>
 </body>
 </html>
