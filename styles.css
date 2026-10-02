@@ -330,8 +330,11 @@ button {
 
 .response-screen {
   width: min(100%, 620px);
-  max-height: 100%;
-  overflow: hidden;
+  max-height: calc(100dvh - env(safe-area-inset-top) - env(safe-area-inset-bottom) - 24px);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
   text-align: center;
   scrollbar-width: thin;
   animation: arrive .65s cubic-bezier(.2, .8, .2, 1) both;
