@@ -39,6 +39,7 @@ const maybeButton = document.getElementById('maybe-button');
 const noButton = document.getElementById('no-button');
 
 const proposal = data;
+const preloadedStoryGifs = new Set();
 let currentScene = 0;
 let holdTimer;
 let currentAnswer = '';
@@ -111,14 +112,27 @@ gateForm.addEventListener('submit', async (event) => {
     }
 });
 
+function preloadStoryGif(sceneIndex) {
+    const gif = proposal[sceneIndex]?.gif;
+    if (!gif || preloadedStoryGifs.has(gif)) return;
+
+    const image = new Image();
+    image.src = gif;
+    preloadedStoryGifs.add(gif);
+}
+
+proposal.forEach((_, index) => preloadStoryGif(index));
+
 function renderScreen() {
     const scene = proposal[currentScene];
 
     sceneTitle.textContent = scene.name;
+    sceneImage.removeAttribute('src');
     sceneImage.src = scene.gif;
     sceneImage.alt = scene.name;
     sceneText.textContent = scene.text;
     sceneNumber.textContent = String(currentScene + 1).padStart(2, '0');
+    preloadStoryGif(currentScene + 1);
 }
 
 openButton.addEventListener('click', () => {
