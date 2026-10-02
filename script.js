@@ -1,4 +1,6 @@
-import data from './data/proposal.json' with { type: 'json' };
+const dataResponse = await fetch('./data/proposal.json');
+if (!dataResponse.ok) throw new Error('Could not load the story data.');
+const data = await dataResponse.json();
 
 const openButton = document.getElementById('open-button');
 const introScreen = document.getElementById('intro-screen');
