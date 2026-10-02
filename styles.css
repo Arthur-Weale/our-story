@@ -52,6 +52,20 @@ button {
   isolation: isolate;
 }
 
+.site-credit {
+  position: fixed;
+  z-index: 2;
+  right: 12px;
+  bottom: max(8px, env(safe-area-inset-bottom));
+  left: 12px;
+  color: rgba(117, 75, 105, .72);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .02em;
+  text-align: center;
+  pointer-events: none;
+}
+
 .floaties {
   position: absolute;
   z-index: -1;
