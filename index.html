@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/hearts.png">
     <link rel="stylesheet" href="styles.css">
     <title>Our Story</title>
+    
 </head>
 <body>
     <main class="main-wrapper">
@@ -26,10 +28,32 @@
             <span class="twinkle sparkle-ten">✦</span>
         </div>
 
+        <!-- Password gate, shown unless the API already has an answer -->
+        <section class="gate-screen" id="gate-screen" aria-labelledby="gate-title">
+            <p class="eyebrow">A tiny secret first</p>
+            <h1 class="display-font gate-title" id="gate-title">Just for you</h1>
+            <p class="gate-copy">What's your favourite colour?</p>
+            <form class="gate-form" id="gate-form">
+                <label class="sr-only" for="gate-password">Password</label>
+                <input
+                    id="gate-password"
+                    name="password"
+                    type="password"
+                    placeholder="Your favourite colour..."
+                    autocomplete="off"
+                    required
+                >
+                <button class="open-button gate-button" type="submit">Unlock it 💜</button>
+            </form>
+            <p class="gate-status" id="gate-status" aria-live="polite"></p>
+            <span class="gate-heart" aria-hidden="true">♥</span>
+        </section>
+
         <!-- Intro screen -->
         <section
             class="card-container"
             id="intro-screen"
+            hidden
             aria-labelledby="greeting"
         >
             <div class="inner-container">
@@ -64,9 +88,10 @@
                 </div>
                 <p class="scene-text" id="scene-text"></p>
             </div>
-            <button class="next-button" id="next-button" type="button">
-                Continue
-            </button>
+            <div class="story-navigation">
+                <button class="back-button" id="story-back" type="button">Back</button>
+                <button class="next-button" id="next-button" type="button">Continue</button>
+            </div>
         </section>
 
         <!-- Proposal screen -->
@@ -119,6 +144,9 @@
                         No 😭
                     </button>
                 </div>
+                <button class="back-button" id="proposal-back" type="button">
+                    Back to the story
+                </button>
             </div>
         </section>
 
@@ -130,16 +158,64 @@
             aria-labelledby="response-title"
         >
             <div class="response-content">
-                <div class="response-animation" id="response-animation">
-                    <!-- GIF or animation inserted here -->
-                </div>
-                <p class="eyebrow" id="response-eyebrow"></p>
+                <p class="eyebrow">Your answer</p>
                 <h2 class="response-title display-font" id="response-title"></h2>
-                <p class="response-message" id="response-message"></p>
                 <p class="response-meta" id="response-meta"></p>
-                <button class="response-button" id="response-button" type="button">
-                    Continue
+                <img class="response-animation" id="response-animation" src="" alt="">
+                <p class="response-lock-note" id="response-lock-note" hidden>
+                    This answer has been recorded and can’t be changed. 💌
+                </p>
+                <button class="back-button response-back" id="response-back" type="button" hidden>
+                    Back to our story
                 </button>
+
+                <div class="message-box" id="message-box">
+                    <label class="message-label" for="response-note">Leave me a little message</label>
+                    <textarea
+                        id="response-note"
+                        name="message"
+                        rows="3"
+                        maxlength="500"
+                        placeholder="Write whatever is on your heart..."
+                    ></textarea>
+                    <button class="response-button" id="save-message" type="button">
+                        Send my response
+                    </button>
+                    <p class="message-status" id="message-status" aria-live="polite"></p>
+                </div>
+
+                <div class="anniversary-box" id="anniversary-box" hidden>
+                    <label class="message-label" for="anniversary-date">
+                        Pick your anniversary date
+                    </label>
+                    <input id="anniversary-date" type="date">
+                    <a
+                        class="calendar-button"
+                        id="calendar-link"
+                        href="https://calendar.google.com/calendar/render?action=TEMPLATE"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Add to Google Calendar
+                    </a>
+                </div>
+
+                <div class="heart-hold-area" id="heart-hold-area">
+                    <p class="heart-hold-hint">Press and hold the heart</p>
+                    <button
+                        class="hold-heart"
+                        id="hold-heart"
+                        type="button"
+                        aria-label="Press and hold to send a heart"
+                        aria-pressed="false"
+                    >
+                        <span class="heart-outline" aria-hidden="true">♡</span>
+                        <span class="heart-fill" aria-hidden="true">♥</span>
+                    </button>
+                    <div class="heart-reactions" id="heart-reactions" aria-hidden="true">
+                        <span>🥰</span><span>😍</span><span>💞</span><span>🤍</span><span>✨</span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
